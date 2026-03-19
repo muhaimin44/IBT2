@@ -1,0 +1,74 @@
+# KiCad auto-save and backup files
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*-bak/
+*.bak
+*.bak2
+*.000
+*.001
+ibt2-backups/
+
+# KiCad auto-save
+_autosave-*
+*.kicad_pcb~
+*.kicad_sch~
+
+# KiCad local settings (machine-specific)
+fp-info-cache
+*.kicad_prl
+
+# KiCad lock files
+*.lck
+
+# Fabrication outputs (regenerate from source)
+/gerbers/
+/fab/
+/manufacturing/
+*.gbr
+*.drl
+*.drl.rpt
+*.pos
+*.cpl
+*.csv
+*.gbl
+*.gbo
+*.gbp
+*.gbs
+*.gtl
+*.gto
+*.gtp
+*.gts
+*.xln
+
+# BOM outputs
+*.xml
+*.html
+
+# Step / 3D export
+*.step
+*.stp
+
+# PDF exports
+*.pdf
+
+# Simulation
+*.raw
+*.net
+*.cir
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Windows-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# KiCad rescue backups
+*-rescue.kicad_sch
+*-rescue.lib
+rescue-backup/
