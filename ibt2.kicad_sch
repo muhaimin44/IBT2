@@ -3595,28 +3595,6 @@
 	)
 	(global_label "RPWM"
 		(shape input)
-		(at 34.29 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "024c5b77-b77c-437e-a14d-a94a854afcbf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.718 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RPWM"
-		(shape input)
 		(at 45.72 101.6 90)
 		(fields_autoplaced yes)
 		(effects
@@ -3749,6 +3727,28 @@
 	)
 	(global_label "LPWM"
 		(shape input)
+		(at 34.29 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aecc21d2-8834-410d-9647-9f75cf21ef29")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.4761 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RPWM"
+		(shape input)
 		(at 34.29 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3757,9 +3757,9 @@
 			)
 			(justify left)
 		)
-		(uuid "c01c87d8-f696-4bb2-9747-c8caebfaca51")
+		(uuid "c0412f34-da82-4bca-8aa2-bf9a005b47cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.4761 73.66 0)
+			(at 42.718 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
